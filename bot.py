@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID"))
+TOKEN = os.getenv("MTQ1MTUzMjA1MjY4Njk2NjkyNQ.GwkzXw.jxEkb0nnb8cBdHVuvJlMOpVPhJOLwHBWnvmA6g")
+LOG_CHANNEL_ID = int(os.getenv("1451521015531311165"))
 
 intents = discord.Intents.default()
 intents.members = True
@@ -38,3 +38,4 @@ async def on_member_remove(member):
         await channel.send(embed=embed)
 
 bot.run(MTQ1MTUzMjA1MjY4Njk2NjkyNQ.GwkzXw.jxEkb0nnb8cBdHVuvJlMOpVPhJOLwHBWnvmA6g)
+
